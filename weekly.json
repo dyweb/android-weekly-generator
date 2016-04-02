@@ -1,0 +1,50 @@
+{
+	"btn_color": "#515868",
+	"banner_color": "#515868",
+	"pre_word": "",
+	"post_word": "",
+	"weekly_number": "23",
+	"date": "2016-04-02",
+	"file": "20160402.md",
+	"img": "http://brotherjing-images.stor.sinaapp.com/res/42410413_p0_master1200.jpg",
+	"authors":[
+		{
+			"name": "Brotherjing"
+		}
+	],
+	"titles":[
+		{
+			"name": "NDK-JNI实战教程"
+		},
+		{
+			"name": "Android App 沉浸式状态栏解决方案"
+		},
+		{
+			"name": "最简实例说明wait、notify、notifyAll的使用方法"
+		}
+	],
+	"articles":[
+		{
+			"title": "NDK-JNI实战教程",
+			"url": "http://yanbober.github.io/2015/02/14/android_studio_jni_1/"
+		},
+		{
+			"title": "Android-transulcent-status-bar",
+			"url": "http://niorgai.github.io/2016/03/20/Android-transulcent-status-bar/",
+			"desc": "沉浸式状态栏"
+		},
+		{
+			"title": "Android App 沉浸式状态栏解决方案",
+			"url": "http://laobie.github.io/android/2016/02/15/status-bar-demo.html"
+		},
+		{
+			"title": "最简实例说明wait、notify、notifyAll的使用方法",
+			"url": "http://longdick.iteye.com/blog/453615",
+			"desc": "腾讯笔试，线程同步的题"
+		}
+	],
+	"tools":[
+	],
+	"repos":[
+	]
+}

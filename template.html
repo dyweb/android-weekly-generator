@@ -149,8 +149,8 @@ a {
 .btn-primary {
   text-decoration: none;
   color: #FFF;
-  background-color: #515868;
-  border: solid #515868;
+  background-color: {{btn_color}};
+  border: solid {{btn_color}};
   border-width: 10px 20px;
   line-height: 2em;
   /* 2em * 14px = 28px, use px to get airier line-height also in Thunderbird, and Yahoo!, Outlook.com, AOL webmail clients */
@@ -299,7 +299,7 @@ a {
             <div class="content">
                 <table class="main" width="100%" cellpadding="0" cellspacing="0">
                     <tr>
-                        <td background="http://brotherjing-images.stor.sinaapp.com/res/42410413_p0_master1200.jpg" bgcolor="#64594b" valign="top" style="background: no-repeat url(http://brotherjing-images.stor.sinaapp.com/res/42410413_p0_master1200.jpg); background-color: #64594b; background-position: center;
+                        <td background="{{img}}" bgcolor="#64594b" valign="top" style="background: no-repeat url({{img}}); background-color: #64594b; background-position: center;
                          filter:'progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')'; -moz-background-size:100%; background-size:100%;">
                           <div class="header">
                             <center>
@@ -307,7 +307,7 @@ a {
                                 <tr>
                                   <td valign="bottom" style="vertical-align:bottom; padding-right: 15px; padding-left: 15px; padding-bottom: 25px; text-align:left;" class="mobile-center" height="303">
 
-                                    <h1>Android Weekly 23</h1>
+                                    <h1>Android Weekly {{weekly_number}}</h1>
                                     <h2></h2>
 
                                   </td>
@@ -326,7 +326,7 @@ a {
                             <table width="100%" cellpadding="0" cellspacing="0">
                                 <tr>
                                     <td class="content-block">
-                                        
+                                        {{pre_word}}
                                     </td>
                                 </tr>
                                 <tr>
@@ -340,15 +340,11 @@ a {
                                       <tr>
                                         <td>
                                           <table class="invoice-items" cellpadding="0" cellspacing="0">
+                                            {{#titles}}
                                             <tr>
-                                              <td>NDK-JNI实战教程</td>
+                                              <td>{{name}}</td>
                                             </tr>
-                                            <tr>
-                                              <td>Android App 沉浸式状态栏解决方案</td>
-                                            </tr>
-                                            <tr>
-                                              <td>最简实例说明wait、notify、notifyAll的使用方法</td>
-                                            </tr>
+                                            {{/titles}}
                                             <tr>
                                               <td>...</td>
                                             </tr>
@@ -360,16 +356,16 @@ a {
                                 </tr>
                                 <tr>
                                     <td class="content-block">
-                                        <a href="https://github.com/dyweb/android-stuff/blob/master/weekly/20160402.md" class="btn-primary">进入周报</a>
+                                        <a href="https://github.com/dyweb/android-stuff/blob/master/weekly/{{file}}" class="btn-primary">进入周报</a>
                                     </td>
                                 </tr>
                 <tr>
                   <td class="content-block">
-                    
+                    {{post_word}}
                   </td>
                 </tr>
                 <tr class="alignright">
-                      <td>Brotherjing<br>2016-04-02</td>
+                      <td>Brotherjing<br>{{date}}</td>
                   </tr>
                                 <tr>
                                     <td class="content-block aligncenter">
