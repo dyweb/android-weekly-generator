@@ -1,0 +1,15 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="androidweekly">
+    <output-path>$PROJECT_DIR$/out/artifacts/androidweekly</output-path>
+    <root id="archive" name="androidweekly.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="directory" name="lib">
+        <element id="library" level="project" name="Gradle: com.google.code.gson:gson:2.4" />
+        <element id="library" level="project" name="Gradle: com.samskivert:jmustache:1.12" />
+      </element>
+      <element id="module-output" name="androidweekly" />
+    </root>
+  </artifact>
+</component>
